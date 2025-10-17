@@ -1,0 +1,16 @@
+[project]
+name = "styles_provider"
+version = "0.1.0"
+description = "Styles provider for pygeoapi"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.32.5",
+]
+
+[build-system]
+requires = ["setuptools>=80.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+license-files = []
